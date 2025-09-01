@@ -1,0 +1,25 @@
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+a .btn:hover{
+    color: aqua;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+height: 10rem;
+width: 8rem;
+transition: 1s;
+background-color: aqua;
+border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+
+}
